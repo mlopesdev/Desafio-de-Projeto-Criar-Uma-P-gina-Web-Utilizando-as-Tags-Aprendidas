@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1 id="inicio"><strong>PRIMEIROS PASSOS COM HTML</strong></h1>
+    <hr>
+    <h2><strong>Aulas:</strong></h2>
+    <ul>
+        <li><a href="#Falando">Falando Sobre Tag's</a></li>
+        <li><a href="#atributos">Atributos das Tag's</a></li>
+        <li><a href="#textos">Textos</a></li>
+        <li><a href="#listas">Listas ordenadas e não ordenadas</a></li>
+        <li><a href="#link">Link's</a></li>
+
+    </ul>
+
+    <h3 id="Falando">Falando Sobre Tag's</h3>
+    
+    <p>Nesta aula nós aprendemos sobre a tag &lt; i &gt; 
+        <i>QUE SERVE PARA DEIXAR O TEXTO EM ITÁLICO COMO ESTE.</i>
+    </p>
+
+    <p>Aprendemos também sobre a tag &lt; strong &gt; 
+        <strong>Que serve para deixar o texto em negrito.</strong>
+    </p>
+
+    <a href="#inicio"><small>(voltar)</small></a>
+
+    <h3 id="atributos">Atributo das Tag's</h3>
+
+    <p>Atributo da Tag é propriedade que a Tag pode adquirir, segue abaixo alguns exemplos</p>
+
+    <ul>
+        <li>&lt; h1 <strong>Id=</strong>"titulo" &gt; - Esta propriedade serve para identificar uma Tag</li>
+        <li>&lt; h1 <strong>style=</strong>"estilo" &gt; - Esta propriedade será utilizada pelo CSS para formatar, estilizar. Neste caso o Título</li>
+        <li>&lt; h1 <strong>class=</strong>"titulo-principal" &gt; - Esta propriedade será utilizada pelo CSS para formatar, todas as tag's que contenham essa classe da mesma forma</li>
+    </ul>
+
+    <a href="#inicio"><small>(voltar)</small></a>
+
+    <h3 id="textos">Textos</h3>
+
+    <p>Nesta aula, aprendemos sobre algumas tag's espedificas para texto apresentadas a seguir</p>
+
+    <ul>
+        <li>
+            &lt; h1 &gt;, &lt; h2 &gt;, &lt; h3 &gt; ... &lt; h6 &gt; - Estas tag's são utilizadas para definir títulos ou cabeçalhos, a numeração de 1 a 6 indica a hierarquia representando por exemplo: Título, subtítulo, etc... respectivamente.
+        </li>
+
+        <li>
+            &lt; p &gt; - Esta tag serve para colocarmos o corpo do texto, separado em paragrafos
+        </li>
+
+        <li>
+            &lt; blockquote &gt; - Esta tag serve para colocarmos um texto como uma citação
+            <blockquote>ESTE TEXTO É UMA CITAÇÃO</blockquote>
+        </li>
+
+        <li>
+            &lt; MARK &gt; - <MARK>Esta tag serve marcarmos um texto como se estivessemos usado uma caneta marca texto</MARK>
+        </li>
+
+        <li>
+            &lt; u &gt; - <u>Esta tag serve para deixar um texto sublinhado</u>
+        </li>
+       
+    </ul>
+
+    <a href="#inicio"><small>(voltar)</small></a>
+
+    <h3 id="listas">Listas ordenadas e não ordenadas</h3>
+
+    <p>As tag's de lista ordenadas tem a seguinte formatação:</p>
+
+    &lt; ol &gt; - Esta tag define a lista ordenada, sendo necessário uma tag filha para definir o que vai ser exibido dentro da lista<blockquote>&lt; li &gt; - Tag filha, o que estiver entre destas tag's serão considerados item da lista e automaticamente serão enumeradas.</blockquote><blockquote>&lt; /li &gt;</blockquote>&lt; /ol &gt;
+<h4>Ficando com a seguinte aparência:</h4>
+
+<ol>
+    <li>Maçã</li>
+    <li>Pera</li>
+    <li>Mamão</li>
+</ol>
+
+<p>As tag's de listas não ordenadas tem a mesma formatação acima, apenas alterando a tag PAI por &lt; ul &gt;
+
+<h4>Ficando com a seguinte aparência:</h4>
+
+<ul>
+    <li>Maçã</li>
+    <li>Pera</li>
+    <li>Mamão</li>
+</ul>
+
+<a href="#inicio"><small>(voltar)</small></a>
+
+<h3 id="link">Link's</h3>
+
+<p>Nestas aulas foram apresentadas 3 tipos de link's que tem a seguinte formatação com suas respectivas finalidades</p>
+
+<p><strong>&lt; a href="http://dio.me"&gt;dio.me&lt; /a &gt;</strong> &emsp; Gerando um link como esse: <a href="http://dio.me">dio.me</a> que direciona para o site  da dio nesta mesma aba.</p>
+
+<p><strong>&lt; a href="http://dio.me" target="_blank"&gt;dio.me&lt; /a &gt;</strong> &emsp; Gerando um link como esse: <a href="http://dio.me" target="_blank">dio.me</a> que direciona para o site  da dio em uma nova aba.</p>
+
+<p><strong>&lt; a href="#inicio"&gt; (voltar) &lt; /a &gt;</strong> &emsp; Gerando um link como esse: <a href="#inicio" title="Clique aqui e volte ao início da página"><small>(voltar)</small></a> que direciona para uma parte específica desta mesma pagina, neste caso, o título principal desta página está com ao atributo id="inicio"</p>
+<hr>
+<H1>OBRIGADO!!!</H1>
+    
+</body>
+</html>
